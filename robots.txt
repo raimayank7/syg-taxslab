@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taxslab.shareyourgroup.com/sitemap.xml

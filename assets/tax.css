@@ -1,0 +1,13 @@
+.tx-n{font-family:var(--mono);white-space:nowrap}td.tx-n,th.tx-n{text-align:right}
+input[type=number]{width:100%;min-height:46px;padding:10px 12px;font:inherit;font-size:1rem;color:var(--ink);background:var(--field);border:1px solid var(--field-line);border-radius:10px}
+.tx-check{display:flex;gap:10px;align-items:flex-start;min-height:44px;padding:8px 0;font-weight:600;font-size:.95rem}
+.tx-check input{width:22px;height:22px;flex:none;margin-top:2px}
+.tx-words{color:var(--soft);font-size:.88rem;min-height:1.3em;margin:4px 0 0}
+.tx-two{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));margin:12px 0}
+.tx-box{border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--surface2)}
+.tx-box.low{border-color:var(--teal);border-width:2px}
+.tx-box h3{margin:0 0 4px;font-size:1rem}.tx-box .big{font-size:1.6rem;margin:0}
+.tx-box small{color:var(--soft)}
+.tx-src{font-size:.9rem;color:var(--soft)}
+tr.tx-total td{font-weight:700;border-top:2px solid var(--line)}
+@media print{.finder{display:block!important}.finder .acts{display:none}}
